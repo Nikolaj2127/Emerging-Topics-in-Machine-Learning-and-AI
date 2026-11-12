@@ -1,0 +1,1453 @@
+{
+  "title": "RLHF Book Course",
+  "author": "Nathan Lambert",
+  "course_url": "https://rlhfbook.com/course",
+  "retrieved_on": "2026-11-12",
+  "upstream_repository": "https://github.com/natolambert/rlhf-book",
+  "upstream_commit": "0be34d8ed8a66cd0b41d4f98123987e2526d05cd",
+  "note": "Text sources are pinned to the commit. Website PDFs are separately hashed snapshots; no claim is made that they were built from that commit.",
+  "files": [
+    {
+      "path": "source/LICENSE-CHAPTERS",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/LICENSE-CHAPTERS",
+      "bytes": 20849,
+      "sha256": "1349a4b6148492b44f629e64eed676612e234fe9a839e4f3b277c1482c8849f1",
+      "git_blob_sha": "cbe5ad1670406e4402217edfb82d2c56af7e8631",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/LICENSE-CODE",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/LICENSE-CODE",
+      "bytes": 1119,
+      "sha256": "a312d5db1e63cf298985a9989069ce7d6a7a35ac237572276ab3222e5af42d4d",
+      "git_blob_sha": "1ce9b22ddb0134dbd9c45959922cb4e9732db2ce",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/README.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/README.md",
+      "bytes": 9024,
+      "sha256": "2faf557d3cbd6d114c6e29112f50dc01abdb0a0def136dde34b021f50d37b0f9",
+      "git_blob_sha": "b60181afbb5fa74d9a12ea586b31f8be213130d1",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/book/chapters/01-introduction.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/book/chapters/01-introduction.md",
+      "bytes": 36427,
+      "sha256": "2505a64be8535e93674e46cd19ce7cad6b10275127e4a853f482b02dd7d2ac53",
+      "git_blob_sha": "f9970c0c1fed05102df94e8c9e2e5becbf1d1b47",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/book/chapters/02-related-works.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/book/chapters/02-related-works.md",
+      "bytes": 7603,
+      "sha256": "6c32652c04d8d97832855e9a66e2158741efef02ce0fd2e5228d2f289aefa53e",
+      "git_blob_sha": "5bbf7d2eda33845259f5f7b3bd18779ff2747a22",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/book/chapters/03-training-overview.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/book/chapters/03-training-overview.md",
+      "bytes": 25185,
+      "sha256": "b7d760466a2b430f877a70c50158f3088c8ebcda49ac3e01f263e37d766dc506",
+      "git_blob_sha": "c6ecb761a5dc58206cf6324be6027557a68909a0",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/book/chapters/04-instruction-tuning.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/book/chapters/04-instruction-tuning.md",
+      "bytes": 17237,
+      "sha256": "5cdb8d020bd92bab6daaf95697455e168a2650ea75fbb9a1c9dead50522f29a4",
+      "git_blob_sha": "136dac37993265a185e6a670f1fe3dafe692fade",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/book/chapters/05-reward-models.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/book/chapters/05-reward-models.md",
+      "bytes": 44165,
+      "sha256": "83542f440b4140144e2c2b51f881b94dc99e6cc195a91546c4ab265e04cbaa9a",
+      "git_blob_sha": "60c4c4e23f9dcd10010b1d781d932ec1262c5efa",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/book/chapters/06-policy-gradients.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/book/chapters/06-policy-gradients.md",
+      "bytes": 121442,
+      "sha256": "72b192d561744feb6a81f58055bc3324bec45b08d232e67a284f8f69be526ef0",
+      "git_blob_sha": "db8c04d53f40cd3022687f27eacc95908c1855ab",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/book/chapters/07-reasoning.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/book/chapters/07-reasoning.md",
+      "bytes": 35330,
+      "sha256": "f9dd8691257dce121db82926a6a9122a763201e86c94e0ad927162a388e7dbb7",
+      "git_blob_sha": "8886cc2764715235eb0d7e2f3c0907bb5d8fd12c",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/book/chapters/08-direct-alignment.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/book/chapters/08-direct-alignment.md",
+      "bytes": 32735,
+      "sha256": "346d6baa96e67f6e517e3b0154c2d67f282dcbeae15cc4d750bbca0f179c66a1",
+      "git_blob_sha": "e6b11cb8f1f2eb8a2e1d478f66e701a6994cc159",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/book/chapters/09-rejection-sampling.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/book/chapters/09-rejection-sampling.md",
+      "bytes": 15732,
+      "sha256": "a104b0d971f12e4d42729a4030046d17a45379ba447f2575b9a9262205326244",
+      "git_blob_sha": "57d13797eaede8f8b989e66278030424f455e60b",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/book/chapters/10-preferences.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/book/chapters/10-preferences.md",
+      "bytes": 20735,
+      "sha256": "0cfb21ae6690a428642cf644bbac63e5a9b9bed00cf01d5ad73cab97af048b10",
+      "git_blob_sha": "c77eda0d37d33c297b8e67f7f300c0d6bffbcb0b",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/book/chapters/11-preference-data.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/book/chapters/11-preference-data.md",
+      "bytes": 27381,
+      "sha256": "d51ecffb21dbe7e415047e1586daa9569910373bd3d9c70a0750aac783ec51c6",
+      "git_blob_sha": "b8646a5a98977ebc0c38e7e1a18b15994f5e7f96",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/book/chapters/12-synthetic-data.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/book/chapters/12-synthetic-data.md",
+      "bytes": 50019,
+      "sha256": "db12625ae9fba3b62831535c4a64900ad64e27c1c37e89aed462e7cc3c27d1cb",
+      "git_blob_sha": "8c1a1b2447e42e74de5b711ca987c9eb901bd506",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/book/chapters/13-tools.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/book/chapters/13-tools.md",
+      "bytes": 21314,
+      "sha256": "81e8f48d8ee9ab87223e8218098038c263dc24b556d23cd6cb732478ded32463",
+      "git_blob_sha": "67b333be0ae4e73b22871a51f618587de2b5dfdf",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/book/chapters/14-over-optimization.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/book/chapters/14-over-optimization.md",
+      "bytes": 17217,
+      "sha256": "5a5a69021138a5ad6321640b53df5cee4973971532a18ec4969405d1ce759d3d",
+      "git_blob_sha": "8c7e8ceda4f97d87d9dd55cfee8846519a294a21",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/book/chapters/15-regularization.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/book/chapters/15-regularization.md",
+      "bytes": 28022,
+      "sha256": "749bc0165739b53f952be2c02cebdd1fb2cb489f2685504156ae5fe5cbf02493",
+      "git_blob_sha": "992c2ed96179fac5ebab4edc327f163083883bc7",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/book/chapters/16-evaluation.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/book/chapters/16-evaluation.md",
+      "bytes": 26872,
+      "sha256": "31bd28620807efee1768209c51699376640d38bbd8d74f35405b4b5acd7e4498",
+      "git_blob_sha": "c64a82e804c71cf24e4caa196e1c391c1b67465a",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/book/chapters/17-product.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/book/chapters/17-product.md",
+      "bytes": 33556,
+      "sha256": "75e46892fbb585182f99eabeea5639d7120890c4ab6b5c421612a8203ddd0800",
+      "git_blob_sha": "9d7b95d94cc76adf4c617b8d1d23a96bb27d1d99",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/book/chapters/README.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/book/chapters/README.md",
+      "bytes": 393,
+      "sha256": "8d9c597bece8c74d1792da996ae98f7dbcdbfb3b6605a2a40c602c4e09ac231a",
+      "git_blob_sha": "60a7345f7edaf4a8197aa73015cbf6be503c241c",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/book/chapters/appendix-00-references.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/book/chapters/appendix-00-references.md",
+      "bytes": 582,
+      "sha256": "88100b0e29ddb8b9fcb10724ef1654a194a24f25c5dda3dd7fb8b75f4494772d",
+      "git_blob_sha": "13ec2af4ffd3088533fa3d8440938bc32478e99d",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/book/chapters/appendix-a-definitions.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/book/chapters/appendix-a-definitions.md",
+      "bytes": 11108,
+      "sha256": "dd973cffde6a98cd42b13f18ef95c467ee162eafa13df695ac8468b8b5a2e2b3",
+      "git_blob_sha": "c9135f6a83ea7abc4286217a35906af0e2a74b25",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/book/chapters/appendix-b-style.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/book/chapters/appendix-b-style.md",
+      "bytes": 15942,
+      "sha256": "cbef5db6053697dcc309e414534a8830a4d476ef9f6df419ae4df79246f7918f",
+      "git_blob_sha": "c75fb404cf00c77e67a0e681d26ff40c1e6a7e3f",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/book/chapters/appendix-c-practical.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/book/chapters/appendix-c-practical.md",
+      "bytes": 7753,
+      "sha256": "14a69dc7e7d5bd6d53049811a0994328611201abe9dfca2b42404f1e05e697fc",
+      "git_blob_sha": "47331fe011aa19e2cc3745ad62f2a26bab91e068",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/book/chapters/bib.bib",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/book/chapters/bib.bib",
+      "bytes": 168644,
+      "sha256": "eee53c585bc32a383144f00340189c09a1151a213a6f94701e42891ac3a1aa2c",
+      "git_blob_sha": "51da529cffbb595e70ce75c74ad03ed8ee16e17d",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/.gitignore",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/.gitignore",
+      "bytes": 668,
+      "sha256": "d3287868b861e8b89752c32072ac79d7af5434cd9ae39214efe0eff8af2d1b29",
+      "git_blob_sha": "77e22bde7dab1f35eae737ff1143d5f1394e9f92",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/.python-version",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/.python-version",
+      "bytes": 5,
+      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d",
+      "git_blob_sha": "e4fba2183587225f216eeada4c78dfab6b2e65f5",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/AGENTS.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/AGENTS.md",
+      "bytes": 9,
+      "sha256": "6ebdb617a8104a7756d0cf36578ab01103dc9f07e4dc6feb751296b9c402faf7",
+      "git_blob_sha": "681311eb9cf453d0faddf3aacaec7357e97ba8e9",
+      "kind": "pinned-upstream-file",
+      "git_mode": "120000"
+    },
+    {
+      "path": "source/code/CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/CHANGELOG.md",
+      "bytes": 18500,
+      "sha256": "e09276321e02fc12aef1ff43b04291b00ec3c2158b46080aeca432116626f117",
+      "git_blob_sha": "f1540fecd2e6a9442bced2e7cd02f907a6e77a54",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/CLAUDE.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/CLAUDE.md",
+      "bytes": 7195,
+      "sha256": "bc9061e13072d8b08339916bd0834c681986421d42ede6d26f00c404fa258862",
+      "git_blob_sha": "24cbdcfd5c71fb934a93b3fe404053f2038be0c8",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/CONTRIBUTING.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/CONTRIBUTING.md",
+      "bytes": 2624,
+      "sha256": "d0d9d65dbf11755e63cae89a8748be401e14acaf674a15054352fba439221f47",
+      "git_blob_sha": "ca22ee78b1918c8db31e2c775299a27a23eaec11",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/README.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/README.md",
+      "bytes": 19459,
+      "sha256": "6a9508bc38d93d003e74567a603450ef45db91be72463fe6de3f90df92c3469a",
+      "git_blob_sha": "12c533c24d9019f378eb796d7819057a6148f9e2",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/direct_alignment/ORPO_SIMPO.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/direct_alignment/ORPO_SIMPO.md",
+      "bytes": 1844,
+      "sha256": "e3ce0e0512b8b6b4be3363d0b967392f4fa50301793edf44b6ae284613837e83",
+      "git_blob_sha": "e6c18284fea02ec5c6bf919bda51e20c3f924c6e",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/direct_alignment/README.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/direct_alignment/README.md",
+      "bytes": 16929,
+      "sha256": "80d55e0f4b95f30ac3a4edc800d5822cb4cb7a9b59975be0d87633dba3fa6205",
+      "git_blob_sha": "6ea5415e46e39d123120b788e70fee354c70de53",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/direct_alignment/__init__.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/direct_alignment/__init__.py",
+      "bytes": 1510,
+      "sha256": "df60a837f80d6967b965908ecc28063762ed3cab795dec4e5f30d5316fc11187",
+      "git_blob_sha": "d5a723b3f95d980a4f833823e8813ef3c046995a",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/direct_alignment/config.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/direct_alignment/config.py",
+      "bytes": 3993,
+      "sha256": "04b837c6bd5b552310b5667f7250a0c642ff564b96c2ee079bb9c6f14dc133b1",
+      "git_blob_sha": "4de13b74c6c3b2236041d2d167500ab3d6d40504",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/direct_alignment/configs/apo_down.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/direct_alignment/configs/apo_down.yaml",
+      "bytes": 1016,
+      "sha256": "905f62585a26f6b297a1eafd06764a70f84dd03183b5f2b46d89079ae27ecb78",
+      "git_blob_sha": "106a7c886642414ad3f91236aed4ddac957c7189",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/direct_alignment/configs/apo_zero.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/direct_alignment/configs/apo_zero.yaml",
+      "bytes": 1016,
+      "sha256": "f905bfdc5f362966ad2406c45218a3d0f0be61d2c109f7eae15dda40d200a67b",
+      "git_blob_sha": "03e6ae3ddf325b050ef556e5a9381c452f0e74e8",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/direct_alignment/configs/dpo.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/direct_alignment/configs/dpo.yaml",
+      "bytes": 989,
+      "sha256": "bba526c707f82d780e97f873f20bfe52412cd4006009c2ca0716324bbb93002b",
+      "git_blob_sha": "1f8245be23ba70340c6823276fe57cbdc49a04df",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/direct_alignment/configs/dpo_norm.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/direct_alignment/configs/dpo_norm.yaml",
+      "bytes": 1072,
+      "sha256": "8d5a6b50c0011c6f03bd18a89b0006f24903c9e25cd96313c3c1be9b2d564953",
+      "git_blob_sha": "bb5e21f8a51d69057447597efda38f2f20cae196",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/direct_alignment/configs/ipo.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/direct_alignment/configs/ipo.yaml",
+      "bytes": 975,
+      "sha256": "7619492c3790a2c8a85865dc5d8b065cfe808fd56a00bb767fe7bdbb9950163e",
+      "git_blob_sha": "e5b81b5663fc47b258fd7ce490207d5522573ed5",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/direct_alignment/configs/kto.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/direct_alignment/configs/kto.yaml",
+      "bytes": 1054,
+      "sha256": "7536ec748f6fd3eb7abbd2bd025f69787135ee3737eccf925b316efa5b60b5c5",
+      "git_blob_sha": "22fc98e7cebc8378219eb57d1a5eab07bf97b9ed",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/direct_alignment/configs/orpo.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/direct_alignment/configs/orpo.yaml",
+      "bytes": 1122,
+      "sha256": "1cbe1a325e21f4d4bc81d9b5819c752c5127be7b074cf24e0499c956f2ab4219",
+      "git_blob_sha": "a955bb48ae5a39869977866be3563615c63a6b01",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/direct_alignment/configs/simpo.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/direct_alignment/configs/simpo.yaml",
+      "bytes": 1202,
+      "sha256": "3e063c1069a1829e584a65c8c2acb034cd97c3135efa22adae06016f30ff37cd",
+      "git_blob_sha": "0302d496b2aa549cdffe3f466248903a34bcf5d4",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/direct_alignment/data.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/direct_alignment/data.py",
+      "bytes": 13362,
+      "sha256": "b71d16569bff9888016ef6963c687fa4505ed1b57a06fb1769a10e4a10b9d84c",
+      "git_blob_sha": "aefab8e75d9fd380a6622477741ba45be2054585",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/direct_alignment/experiments/2026-02-08-orpo-simpo.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/direct_alignment/experiments/2026-02-08-orpo-simpo.md",
+      "bytes": 7031,
+      "sha256": "6d231a9196c06fc4eedf6590fe64165add5ed1480cd83a3254f72d95faf0960f",
+      "git_blob_sha": "c1b42d57b4e61e0868bcfe1f8a3faf667fcffd45",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/direct_alignment/experiments/2026-02-08-orpo-simpo/run_orpo_small.sh",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/direct_alignment/experiments/2026-02-08-orpo-simpo/run_orpo_small.sh",
+      "bytes": 1939,
+      "sha256": "345cfce6dcf2bc6e4d41a5a73a1718230b9d71b5e0a6d072d6b704e2dd285ee0",
+      "git_blob_sha": "d4ab044fe55bc9cfa078f4bea8227744605fdfab",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100755"
+    },
+    {
+      "path": "source/code/direct_alignment/experiments/2026-02-08-orpo-simpo/run_simpo_small.sh",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/direct_alignment/experiments/2026-02-08-orpo-simpo/run_simpo_small.sh",
+      "bytes": 2019,
+      "sha256": "76d81c2875b1c6e4ff1df4c00cf3c2224ac8a1db894d8a2794045c004450fc1a",
+      "git_blob_sha": "6669b8d64f3be9075823f5292c6d16f489cac093",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100755"
+    },
+    {
+      "path": "source/code/direct_alignment/loss.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/direct_alignment/loss.py",
+      "bytes": 26429,
+      "sha256": "8016930c7f807635a25f33096953a35b133645c0f2374007cc5cf398fd07d946",
+      "git_blob_sha": "4de9e7617cd290d903c8acbe8f7a9c12686f60cf",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/direct_alignment/profile_memory.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/direct_alignment/profile_memory.py",
+      "bytes": 8258,
+      "sha256": "200122d70fa9d4885ec34c03c54ae99053821e1ecc1aa2f2efc6e268f209b651",
+      "git_blob_sha": "0a2e5bcfa77340c2cd594fcda36dbede17b3c39a",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/direct_alignment/train.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/direct_alignment/train.py",
+      "bytes": 30312,
+      "sha256": "0dd32f686e8c6d43adcb62479bb828e88b0ed3e48959995996595b480a0f60bf",
+      "git_blob_sha": "2403e44e1a1cce0ec73365b8eaba9590b522796f",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/distillation/.gitignore",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/distillation/.gitignore",
+      "bytes": 6,
+      "sha256": "0f97a54ea04b160f8d4a75ff967f7dbea6ba08898bdf16ad195c785a931b9e9a",
+      "git_blob_sha": "b1749e4da5f32fd55f7db3ea7cb94ef0e98fa7cc",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/distillation/README.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/distillation/README.md",
+      "bytes": 6646,
+      "sha256": "b0cc5488bc8718106107b450f6c409e514aee9247bbe9b01e9b846ff2c8a8e3b",
+      "git_blob_sha": "cf0e854c36f3cfb20f0b4fbfba0002d008fad483",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/distillation/__init__.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/distillation/__init__.py",
+      "bytes": 280,
+      "sha256": "bd6ac38be4b6435bf5105bd3baa70cfb8300d6c4575bae96f39d7fa60626f04c",
+      "git_blob_sha": "250f2858a5d155a1d7f58ac5cbfc2972ca89ad63",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/distillation/config.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/distillation/config.py",
+      "bytes": 1821,
+      "sha256": "3caf4dd1d05c34f022e6467e045180cf195aaa37f8a829dc6aeb76ab4162e2b5",
+      "git_blob_sha": "1983988a8b5dc9ec903753c0a0667b040f8e00f3",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/distillation/configs/sdpo.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/distillation/configs/sdpo.yaml",
+      "bytes": 857,
+      "sha256": "dd016b9dbc851a1e098808944fe884e9db96cfeb9ec6799a546c59b1c250eecc",
+      "git_blob_sha": "602cb0cff7e19ab253e00e0231a5d8766f085c60",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/distillation/data.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/distillation/data.py",
+      "bytes": 849,
+      "sha256": "dd97869645ff2adc92f4bca35092ff62e02ffd08d75fe1df714bed234e014352",
+      "git_blob_sha": "3e1655aecca518e2ad012b58dbb28dfca29a48ee",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/distillation/loss.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/distillation/loss.py",
+      "bytes": 4132,
+      "sha256": "49241ae9b6295cdca6365376ce999b2929ea17b3d7c142de346c58153484ea32",
+      "git_blob_sha": "8789d43eea0589f5c10a46c605348dc716c7eb90",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/distillation/rollout.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/distillation/rollout.py",
+      "bytes": 3153,
+      "sha256": "cf6bddadf93e07d184dcdc543755742c17a3f10822b5c3e48d640497375f0130",
+      "git_blob_sha": "bed26b17964293b6432c57a96c2862be9c029148",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/distillation/train.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/distillation/train.py",
+      "bytes": 4392,
+      "sha256": "a135d61280a13a0ce22ae7b8a129fc2197ea487cbddf64beff6113f4ba6811d7",
+      "git_blob_sha": "54534adbd6acbe5f203d80badf829f056bb100fe",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/distillation/utils.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/distillation/utils.py",
+      "bytes": 4230,
+      "sha256": "043101b2cf2b7e610fd31511ea83903913030184950888baf89661d68d9c5ba8",
+      "git_blob_sha": "71a593f8251e93d318aef0b9de80e6f5ec910ab0",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/images/sdpo_sokoban.png",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/images/sdpo_sokoban.png",
+      "bytes": 721221,
+      "sha256": "e53ebdebfce900e47146c18473bce69f873f40e428c456475a4a52430a881b59",
+      "git_blob_sha": "12d7c5cff1e38b9c108d35f9ba636173479163f5",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/images/wandb_direct_alignment.png",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/images/wandb_direct_alignment.png",
+      "bytes": 333276,
+      "sha256": "28e284c68e24555bd873daaccc18abca08c4a978527bee911d7fae5db8f71824",
+      "git_blob_sha": "54bf880e622207930372fae3b99bc72f62862843",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/images/wandb_distillation.png",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/images/wandb_distillation.png",
+      "bytes": 361137,
+      "sha256": "f6b7f9a80c878f39fd47191f137733b546273e668d562dbae87351d8837d2ce3",
+      "git_blob_sha": "ac83686620f9d482142ac9837c9f69affef08406",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/images/wandb_instruction_tuning.png",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/images/wandb_instruction_tuning.png",
+      "bytes": 759651,
+      "sha256": "a97c64d9487f2b32a4fdcf55890aa87500b709cb121091b56a7e91b23c1730c0",
+      "git_blob_sha": "27d94c6fbf696571380f81fa47ba6a1ce3cb9e8e",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/images/wandb_policy_gradients.png",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/images/wandb_policy_gradients.png",
+      "bytes": 1097945,
+      "sha256": "2da4cfd04eb3827cfdc2664df36475f7e362691eafbba04813f09bbb3b649bb5",
+      "git_blob_sha": "cae754d527c4423b0987691a0f195bb7cba02a13",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/images/wandb_rejection_sampling.png",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/images/wandb_rejection_sampling.png",
+      "bytes": 646072,
+      "sha256": "a082a0b6b66df9b845a57db627703a6341d1dc9db76cd1a0e35874fd9da7c62d",
+      "git_blob_sha": "afbe18718d867581d85d3364b5e1f310aefb86e3",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/instruction_tuning/README.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/instruction_tuning/README.md",
+      "bytes": 8241,
+      "sha256": "45786f701aba4923c718c70f1244f8a71331da3877358e892b568b0f1c1205d6",
+      "git_blob_sha": "2d09d27629292e9077af71ad9771e50f7057914f",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/instruction_tuning/__init__.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/instruction_tuning/__init__.py",
+      "bytes": 151,
+      "sha256": "cf1665720179ec1fe0cc6ad21125a14383d645684700116dc793a41e92230649",
+      "git_blob_sha": "c2b7b98897a1445afb271e36e1d7f4b708b88029",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/instruction_tuning/config.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/instruction_tuning/config.py",
+      "bytes": 2430,
+      "sha256": "b9f2da4befb5eff340b3efcca33216c610e3f550c1fccccceaa7974f0d1bee26",
+      "git_blob_sha": "01a0b01d4032620b8e982111459edc158b14a88c",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/instruction_tuning/configs/sft_olmo2_1b.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/instruction_tuning/configs/sft_olmo2_1b.yaml",
+      "bytes": 824,
+      "sha256": "f267fabb371856d2b35d355d4c2a6b91a15bbfbed76aee52b84e226250d0ee21",
+      "git_blob_sha": "2cb0caceb3f6550878c32bbf6f456a4e134ecaed",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/instruction_tuning/train.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/instruction_tuning/train.py",
+      "bytes": 3930,
+      "sha256": "d046c3eda3786d557a42334b517547a108fa9e1cd15771bd747d13b8368532d7",
+      "git_blob_sha": "d4b3adf02ba30556c01d7f7302b569d359a4c644",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/instruction_tuning/utils.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/instruction_tuning/utils.py",
+      "bytes": 11579,
+      "sha256": "5bfb911c1896011ae5a111772d08d5dabc573b28d773b3df3977fbb5b1722a70",
+      "git_blob_sha": "80aff1cf2248d415b3a36d014ec6933dcfb4113d",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/policy_gradients/README.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/policy_gradients/README.md",
+      "bytes": 3159,
+      "sha256": "6a8aa851e685664db06800df6a94df1c262e0f4cbe06a26b8ff488386b748834",
+      "git_blob_sha": "a3a58d42a8172e6d673b09005e3eb40aca77ac4f",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/policy_gradients/__init__.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/policy_gradients/__init__.py",
+      "bytes": 710,
+      "sha256": "129d9ab0d19382597d326c153ab7abe1e2b0cf96a95c685f1b16d7994340a3d9",
+      "git_blob_sha": "7f58cf49c21275e81976315654067ba509b50cce",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/policy_gradients/buffer.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/policy_gradients/buffer.py",
+      "bytes": 4551,
+      "sha256": "dd3f97e4bf66768f23b04acb61f041b02483bdcab72b765554191de9bc554d2f",
+      "git_blob_sha": "caa809d8f214c54eee9b99cc4c66b0638827caba",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/policy_gradients/config.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/policy_gradients/config.py",
+      "bytes": 4512,
+      "sha256": "12d83fb67ce5220c49fadf67bdcff41c5c86b2ab2f9f1bd98124659a331afb14",
+      "git_blob_sha": "9121784f271262136c27f526cdf892a10e589d5b",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/policy_gradients/configs/cispo.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/policy_gradients/configs/cispo.yaml",
+      "bytes": 617,
+      "sha256": "a8c66fde8641723b999418c2ddadc20479a5386408f5f57cf11dddace43652a8",
+      "git_blob_sha": "7732f001cbd08715efeba52984b03cae51d56120",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/policy_gradients/configs/dapo.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/policy_gradients/configs/dapo.yaml",
+      "bytes": 798,
+      "sha256": "912de0f40280847b50c1ba215c266df924b29e598bb3d49e7eb422ee08c30027",
+      "git_blob_sha": "43f32d5b360960cf33aae6a135ce728c544e5e7f",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/policy_gradients/configs/drgrpo.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/policy_gradients/configs/drgrpo.yaml",
+      "bytes": 585,
+      "sha256": "c77c174cd2338bd0cf27abc6eb6b015200526c87015e0e661f81bb6dbd3cc59a",
+      "git_blob_sha": "25dd8e0c62356c33d323e7f12072e15d1a9c946f",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/policy_gradients/configs/grpo.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/policy_gradients/configs/grpo.yaml",
+      "bytes": 581,
+      "sha256": "0d99459d57a26503ccb58cd170c8b8cb2f8533f255fc73d6ab6f3ea8c38a0e51",
+      "git_blob_sha": "994db3baaaffb627165f1a97ed46db71bd851c9b",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/policy_gradients/configs/gspo.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/policy_gradients/configs/gspo.yaml",
+      "bytes": 581,
+      "sha256": "e5635a5a7db76ad10bcbb60abd900b3ad33fd127d18a89ef66602d53037d2520",
+      "git_blob_sha": "c9badcfcd0cacb90132135b4b4a4191bab508d7d",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/policy_gradients/configs/maxrl.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/policy_gradients/configs/maxrl.yaml",
+      "bytes": 549,
+      "sha256": "42addc7de5c0371d90857e5a6c0a970ac8d20e759099f3aa73fa88d7fc5821e2",
+      "git_blob_sha": "982bc3d178c82179c8b90eff620d11daa08ae456",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/policy_gradients/configs/ppo.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/policy_gradients/configs/ppo.yaml",
+      "bytes": 821,
+      "sha256": "331070ed9b26f7c681b511984cd0bdf631eb1e9877cc53f19a08f0303638bbfb",
+      "git_blob_sha": "619875808be46547dc47ead80c48efcfd687f151",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/policy_gradients/configs/reinforce.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/policy_gradients/configs/reinforce.yaml",
+      "bytes": 600,
+      "sha256": "3c65eba8bd08c17cdeda4e2c38989308d16af4fba453fbcff2928adda2b9f982",
+      "git_blob_sha": "b9a41b0beb3ea5d1482341f5d919132d66272c7c",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/policy_gradients/configs/rloo.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/policy_gradients/configs/rloo.yaml",
+      "bytes": 547,
+      "sha256": "3a3e218486cb17fedec55ed665e32f44a77331ddd958975678a6f756e0565f66",
+      "git_blob_sha": "63f0385375d2be2b69113bfba9d363a176f96667",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/policy_gradients/configs/sapo.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/policy_gradients/configs/sapo.yaml",
+      "bytes": 604,
+      "sha256": "d953202c5bcc1dd448a407fc8999d3bfaa93d4f0706d8aff7a9601894a592d8c",
+      "git_blob_sha": "130f783d189c725302ab9e7826813c81d48f2725",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/policy_gradients/loss.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/policy_gradients/loss.py",
+      "bytes": 12756,
+      "sha256": "9655a2dc6858fa9a1e1b04ab7334e81432dce46f888028a8b90f5f35a9c048ce",
+      "git_blob_sha": "9f0955590a64d9c7cffe1c184e3041712ee228be",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/policy_gradients/rollout.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/policy_gradients/rollout.py",
+      "bytes": 6190,
+      "sha256": "169f7825dcb10a2cc117c52a8cb0379ef9c7649be081d4874380779bafa990eb",
+      "git_blob_sha": "3ce3953419a91ae074b4eaf7c92f671614715d04",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/policy_gradients/train.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/policy_gradients/train.py",
+      "bytes": 5655,
+      "sha256": "4c763dcbe6aebc127cb0ddb8a3b8a84bcb2fa18cf3544cf0a8270c60e13a421b",
+      "git_blob_sha": "d01e88ae0e8b90f17b9c08a2ccaf743303ae89eb",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/policy_gradients/utils.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/policy_gradients/utils.py",
+      "bytes": 15089,
+      "sha256": "8cefebd82905c0e439f35ad68289e06219dd2bf6f39b3624a95ba67972a73bfd",
+      "git_blob_sha": "33dc140f72fba1c981f4fe3f0f280f17dbc190cf",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/pyproject.toml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/pyproject.toml",
+      "bytes": 2765,
+      "sha256": "73f826be2d05d43b073c4321ea8131d19aca4faac9e3e73047e125e49a133c2b",
+      "git_blob_sha": "5c649410e6ba9738a8e488a7f22b68fa98283833",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/rejection_sampling/README.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/rejection_sampling/README.md",
+      "bytes": 6099,
+      "sha256": "5682255a68fe7dcc885a6a432248a1423b4630ff21c37b3e960414673f7eaea7",
+      "git_blob_sha": "59aea200fbffa3e71e4233fb8e32e9407ccd0048",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/rejection_sampling/__init__.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/rejection_sampling/__init__.py",
+      "bytes": 592,
+      "sha256": "bde249684cc7b6bc75d08fed4ef750600901387126fa44ef6b3eabb65853a998",
+      "git_blob_sha": "03255a1d65aaafce3178e64900a00e0d059dd82e",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/rejection_sampling/config.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/rejection_sampling/config.py",
+      "bytes": 1887,
+      "sha256": "59badf7f14b6c1950cc43473118d4246b25918a35ab1b3c79b03a7181b54c66f",
+      "git_blob_sha": "fd34d14a78740501d847124a951b51674f6e54de",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/rejection_sampling/configs/random_k_overall.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/rejection_sampling/configs/random_k_overall.yaml",
+      "bytes": 1422,
+      "sha256": "d8325e7c8d7f59189e5ce9bef4ce77126339ce2a64ac187901cef533122b973b",
+      "git_blob_sha": "d6256391e4b2365889d377e9ae37628271a6a7bc",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/rejection_sampling/configs/random_per_prompt.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/rejection_sampling/configs/random_per_prompt.yaml",
+      "bytes": 1313,
+      "sha256": "3736dbd14b272a6030c213d11f65568caeb0bb0b6e7796d2ae6a47b5d14969bc",
+      "git_blob_sha": "ebe4dc27f329738fe21a03d66a794bf6faece44d",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/rejection_sampling/configs/top_k_overall.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/rejection_sampling/configs/top_k_overall.yaml",
+      "bytes": 1151,
+      "sha256": "f5d36caaa26607ae9647ab52707f1c477cfdf3a45712b3ff4801c1b2609d18d2",
+      "git_blob_sha": "1e807e01a4b47c14885725fed36d48eb6b2b99d5",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/rejection_sampling/configs/top_per_prompt.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/rejection_sampling/configs/top_per_prompt.yaml",
+      "bytes": 1100,
+      "sha256": "d813901b7442343a37bf88123eae7b63c2a5cfda164261c1ab1b619495901a91",
+      "git_blob_sha": "a7bc7750927da9725cdf8c5b422574e5fcccdfa3",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/rejection_sampling/diagnostics.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/rejection_sampling/diagnostics.py",
+      "bytes": 11702,
+      "sha256": "3e1d2ad20301d6ab7183acf8737db2d0e46637bce37bdf2c536fd9a1ef6f46e6",
+      "git_blob_sha": "ad9a76a47d3367e9a01d49c232af9f66d0455f09",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/rejection_sampling/preprocess.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/rejection_sampling/preprocess.py",
+      "bytes": 13467,
+      "sha256": "009d9a733256d968b511f4e8d0d3a25b217cca077c57ec50347ac54af8e8e648",
+      "git_blob_sha": "190fd0d5e4decdadd62083506fbef7f73d588134",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/rejection_sampling/selection.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/rejection_sampling/selection.py",
+      "bytes": 4303,
+      "sha256": "f84c791ad2230cb98b19f1ec5e0014c39d31edd3e9091d60a03e3da228037cb4",
+      "git_blob_sha": "178e612e4a9b979af9df9f1e76969804c2462118",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/rejection_sampling/train.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/rejection_sampling/train.py",
+      "bytes": 13513,
+      "sha256": "5df0389917a243caff1269604d4289449e44d2989a2313a9aa152e73da5870ee",
+      "git_blob_sha": "fc898f298876bdde4493d95d2b3f416abbd0028c",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/rejection_sampling/utils.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/rejection_sampling/utils.py",
+      "bytes": 6629,
+      "sha256": "88a6be460c26c7fffd6c3f3fa3f1cff2b903b663ad85878c86f8e77e03a14f2c",
+      "git_blob_sha": "ef710cd14ee9d822f1190095f3285667162061d9",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/reward_models/README.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/reward_models/README.md",
+      "bytes": 2947,
+      "sha256": "6344183c6da43abd45727d65a3c5329a3663b1037b6c51085c61fb4106ee8b5d",
+      "git_blob_sha": "0de1e5cb0a115d6c579e0949c4e71fb4547c1a5c",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/reward_models/__init__.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/reward_models/__init__.py",
+      "bytes": 512,
+      "sha256": "d5023199149012001df79262e92abf96587fa847849862f55fea4f85aa63fd46",
+      "git_blob_sha": "6c01bddfac7a1c709f87afa7926c4ae30cc96531",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/reward_models/base.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/reward_models/base.py",
+      "bytes": 8931,
+      "sha256": "b983c812af15c8d335e107a8802a3f4f77d11629d21df44150d07c42266257c1",
+      "git_blob_sha": "8376dbde6d3c06e24017adf01f59faea9f963f61",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/reward_models/config.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/reward_models/config.py",
+      "bytes": 2465,
+      "sha256": "73c3d9c24005bf6175b09371c6f9642353b14eff9505fd28c64365b417bd6ffa",
+      "git_blob_sha": "84245505e9496f6645ef232f385821b309b97e38",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/reward_models/configs/orm.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/reward_models/configs/orm.yaml",
+      "bytes": 635,
+      "sha256": "109764f2d04a5bcfb7b0c85cda25a2e05400ed94ee785f683331c05ec7cd9663",
+      "git_blob_sha": "676f98a043b150cae918b9a65cd507bbbe3d6e16",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/reward_models/configs/preference_rm.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/reward_models/configs/preference_rm.yaml",
+      "bytes": 649,
+      "sha256": "fff904fb99af45f415333ede9faadc061f86d76ee948c9b84025cc1c2fe3f871",
+      "git_blob_sha": "3353e3bbd385dfc0cffed62149c369b15fd088a2",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/reward_models/configs/prm.yaml",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/reward_models/configs/prm.yaml",
+      "bytes": 674,
+      "sha256": "859495895bacc6168e58c5ba722d67f1033175835aab32091e082cbe7bea29e0",
+      "git_blob_sha": "e79c0f4f3b18362edcb9e7c4ee7c603b290c9bbf",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/reward_models/train_orm.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/reward_models/train_orm.py",
+      "bytes": 22922,
+      "sha256": "8690a774bfc8bb1bda40080e97b448d8a33a5f57dfc1725d554d069839d59622",
+      "git_blob_sha": "d1d64ba4bb03618b48a85f3b0a9c46dddf51476c",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/reward_models/train_preference_rm.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/reward_models/train_preference_rm.py",
+      "bytes": 20289,
+      "sha256": "a28fe06a6c207a6666022d697284231117c23e0577bdae45aec86356efc5abfb",
+      "git_blob_sha": "80aaf14bdfd8f172ab107a2635e42e56bc1bcf44",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/reward_models/train_prm.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/reward_models/train_prm.py",
+      "bytes": 25151,
+      "sha256": "3a0d61e7e8d325b389dda7820597bc3ec17808851c4d2a2cf024b6b23a2a7530",
+      "git_blob_sha": "ff3f8ea1cc7540a486f88ccefe11959a0e166a20",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/scripts/run_all_policy_gradients.sh",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/scripts/run_all_policy_gradients.sh",
+      "bytes": 1889,
+      "sha256": "4c96a1cd34145d0d4bfde1bf3cf843133b30fab0b2e04795a6238bd7418f0dd9",
+      "git_blob_sha": "f479e53e50aa9fef1794bcba8bfe122cade70643",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100755"
+    },
+    {
+      "path": "source/code/tests/test_import_smoke.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/tests/test_import_smoke.py",
+      "bytes": 3010,
+      "sha256": "a5f2c002496d2090853fd184ba083560e23e738aebbe6366cece9a9916c237f0",
+      "git_blob_sha": "2e9ace86eca9a1d52fcc2907fb468f0c8cbbcd4f",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/code/tests/test_kl3_stability.py",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/code/tests/test_kl3_stability.py",
+      "bytes": 3174,
+      "sha256": "8d39e6d3190e124afce825d80a7a7e6f9a54c4ceb3ef623f922d05e914585044",
+      "git_blob_sha": "012b2c35039a94d951d660349c19112095af7b39",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/course-page.md",
+      "url": "https://rlhfbook.com/course",
+      "bytes": 18290,
+      "sha256": "a848e3cea3267fd9493997f3a6ed88559f6f446b3cf7f5b9ddc8f16181c2a33b",
+      "kind": "extracted-website-text",
+      "scrape_id": "01a1d11f-78be-73bf-8b80-a8128123244c"
+    },
+    {
+      "path": "source/teach/Cornell-CS4789-2026/refs.bib",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/teach/Cornell-CS4789-2026/refs.bib",
+      "bytes": 5397,
+      "sha256": "2bf1f88c656e240087aa68d27c0088edf846495201d1c8a9c6957f44fd8a7433",
+      "git_blob_sha": "53eab4fe2908898663818435ae029ac9bea04cdd",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/teach/Cornell-CS4789-2026/slides.pdf",
+      "url": "https://rlhfbook.com/teach/Cornell-CS4789-2026/slides.pdf",
+      "bytes": 6332496,
+      "sha256": "b21991b85de0a9d050a0c02fd49205810788d83313752e11c9aed49d512bb0d1",
+      "kind": "website-pdf-snapshot"
+    },
+    {
+      "path": "source/teach/Cornell-CS4789-2026/talk.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/teach/Cornell-CS4789-2026/talk.md",
+      "bytes": 43757,
+      "sha256": "9b09fa35f8a2cbe639ce25d7daa690f2387ffc6eb925498931839a99a1929d57",
+      "git_blob_sha": "ff952b43773a3ab8bcc659f60df76b8df5f60b38",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/teach/SALA-2026/refs.bib",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/teach/SALA-2026/refs.bib",
+      "bytes": 11280,
+      "sha256": "81ba54b09e24088d45a9544cab75e32b37de0ca4a14c3b6c056e6cb459e4c099",
+      "git_blob_sha": "c07d78c5726937d326caa69bf04b58dfb653da50",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/teach/SALA-2026/slides.pdf",
+      "url": "https://rlhfbook.com/teach/SALA-2026/slides.pdf",
+      "bytes": 5055976,
+      "sha256": "8c878e32484d060b67971abc00d6f271ee897de543639f18d09809837ea6bfcc",
+      "kind": "website-pdf-snapshot"
+    },
+    {
+      "path": "source/teach/SALA-2026/talk.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/teach/SALA-2026/talk.md",
+      "bytes": 29885,
+      "sha256": "e756ee20e029d7575403c8e1a6be804e69d2d7c0af7ce9b7571d16b6ce410c84",
+      "git_blob_sha": "75bf5ca8e62ea076a517dda166c733d99b3098a8",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/teach/assets/from-research-to-practice.pdf",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/teach/assets/from-research-to-practice.pdf",
+      "bytes": 2581864,
+      "sha256": "91184118e00774e6f156522705a08e92fe2fbb0c2ead2ecffa71a340d1dc6864",
+      "git_blob_sha": "b64498a669763e72c9d1752892b15708848d940c",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/teach/course/conversation-01.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/teach/course/conversation-01.md",
+      "bytes": 9695,
+      "sha256": "a1358df0a814f8907eed16eb1ca741a283499f7e41f7a38f978bb1c1f2eefdca",
+      "git_blob_sha": "ac9e34a4bc8aa1cbbdbdf8eca161c4a14a47c613",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/teach/course/conversation-01/slides.pdf",
+      "url": "https://rlhfbook.com/teach/course/conversation-01/slides.pdf",
+      "bytes": 5131572,
+      "sha256": "21b17aaae6329c757395953b0333487e374db1d3412d33bdd37f3f8a8152b59d",
+      "kind": "website-pdf-snapshot"
+    },
+    {
+      "path": "source/teach/course/lec0-prereq-review.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/teach/course/lec0-prereq-review.md",
+      "bytes": 19338,
+      "sha256": "84afb96aa8c948b7fa1952c973304c01926149f16617f3e1772573cc27a8cc26",
+      "git_blob_sha": "3aee367db82b6e43a593277c638aa21b9cf62efc",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/teach/course/lec0-prereq-review/slides.pdf",
+      "url": "https://rlhfbook.com/teach/course/lec0-prereq-review/slides.pdf",
+      "bytes": 495908,
+      "sha256": "ff48e171563e1dbbc15224cf7cbb926e962816663ca7fddb8fe3f036fcc6b9c9",
+      "kind": "website-pdf-snapshot"
+    },
+    {
+      "path": "source/teach/course/lec1-chap1-3.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/teach/course/lec1-chap1-3.md",
+      "bytes": 38178,
+      "sha256": "5e4347183206ffde90dd21aea32361a23dfc4eed43eeb9a64f4227df301bfdb7",
+      "git_blob_sha": "4a6fa82119b4ad3678ba9807e9b7692843ce57e7",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/teach/course/lec1-chap1-3/slides.pdf",
+      "url": "https://rlhfbook.com/teach/course/lec1-chap1-3/slides.pdf",
+      "bytes": 5314677,
+      "sha256": "15a5ce92f68542044bcc316926345e9cd05fe3f19be98be21e0330335211d89b",
+      "kind": "website-pdf-snapshot"
+    },
+    {
+      "path": "source/teach/course/lec10-chap15-regularization.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/teach/course/lec10-chap15-regularization.md",
+      "bytes": 22173,
+      "sha256": "b7b4d0abe869efcd279ebf7e730b01833ddccc94c962e7e27b8bdf041918737e",
+      "git_blob_sha": "47d10c29cd51255a9b93799e1588d37c6e574d4b",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/teach/course/lec10-chap15-regularization/slides.pdf",
+      "url": "https://rlhfbook.com/teach/course/lec10-chap15-regularization/slides.pdf",
+      "bytes": 5854261,
+      "sha256": "07028f9ed0de0987f1d888d8f0b4944bf35eff94e4d4dd7337b5a3a1b6c8f8f2",
+      "kind": "website-pdf-snapshot"
+    },
+    {
+      "path": "source/teach/course/lec11-chap13-tools.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/teach/course/lec11-chap13-tools.md",
+      "bytes": 22726,
+      "sha256": "45daf79b28b58b7bbf3251c1e9577f0d94209901c4d91aa8bdbc95d946a55569",
+      "git_blob_sha": "f3f1d808c7a294c709fb1e9db634d25fa902897e",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/teach/course/lec11-chap13-tools/slides.pdf",
+      "url": "https://rlhfbook.com/teach/course/lec11-chap13-tools/slides.pdf",
+      "bytes": 3312502,
+      "sha256": "5bda68a2cc2229c8d222c0caac4d0e51c0eede110a6988a6cc39e9a991eae849",
+      "kind": "website-pdf-snapshot"
+    },
+    {
+      "path": "source/teach/course/lec12-chap16-evals.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/teach/course/lec12-chap16-evals.md",
+      "bytes": 26135,
+      "sha256": "0b821bdb49d3acb48808f4a0338b005c307b35dbfa886a4dc72153131aea882e",
+      "git_blob_sha": "1d8712935875ec3305a75774a3f5c789e3e7e608",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/teach/course/lec12-chap16-evals/slides.pdf",
+      "url": "https://rlhfbook.com/teach/course/lec12-chap16-evals/slides.pdf",
+      "bytes": 1545863,
+      "sha256": "fb35ae2f4307e677147e2115d01aa6d35f59f20ee9c7f53620a9e5835a5f7d28",
+      "kind": "website-pdf-snapshot"
+    },
+    {
+      "path": "source/teach/course/lec13-chap17-character.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/teach/course/lec13-chap17-character.md",
+      "bytes": 27716,
+      "sha256": "9b3844fed9c8610702800eb78e910b1c49d64ccd6d5a3c8c037373826775a1a8",
+      "git_blob_sha": "0ab6f7c607fbcce94f1f92deacce4915b5f6e1a4",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/teach/course/lec13-chap17-character/slides.pdf",
+      "url": "https://rlhfbook.com/teach/course/lec13-chap17-character/slides.pdf",
+      "bytes": 2793282,
+      "sha256": "f7a00141c25f503255bed08d6427605402a7252249f1c003cd1b14318fe6c41a",
+      "kind": "website-pdf-snapshot"
+    },
+    {
+      "path": "source/teach/course/lec2-chap4-5-9.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/teach/course/lec2-chap4-5-9.md",
+      "bytes": 41953,
+      "sha256": "8d6faf222d7d7a4e92c413fd8fdb83dab8fd1639ce7cf490e517ddc237a91c13",
+      "git_blob_sha": "158ad0114f7878a2b55460721ce503a8e3b53769",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/teach/course/lec2-chap4-5-9/slides.pdf",
+      "url": "https://rlhfbook.com/teach/course/lec2-chap4-5-9/slides.pdf",
+      "bytes": 1521631,
+      "sha256": "469ad6bd62e220baf52de230fce2b74cdfea3a7d573a35634418b8fdbf93b47a",
+      "kind": "website-pdf-snapshot"
+    },
+    {
+      "path": "source/teach/course/lec3-chap6-p1.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/teach/course/lec3-chap6-p1.md",
+      "bytes": 48917,
+      "sha256": "59064d0142bdb4a71d189a5eee9d267c56671f29450184d32e26aa082a57824f",
+      "git_blob_sha": "b4e92f0b84aae0fe0e063545f78d2a9983afddf6",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/teach/course/lec3-chap6-p1/slides.pdf",
+      "url": "https://rlhfbook.com/teach/course/lec3-chap6-p1/slides.pdf",
+      "bytes": 1693571,
+      "sha256": "9fa5d8b307956b144d05ec7020fb0987df14e69f5ddf944d99e9cea54501bad6",
+      "kind": "website-pdf-snapshot"
+    },
+    {
+      "path": "source/teach/course/lec4-chap6-p2.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/teach/course/lec4-chap6-p2.md",
+      "bytes": 41728,
+      "sha256": "e1af78a767358920c4a143d6a513c2fe25bb5eca67400d1e01db368b76dde8df",
+      "git_blob_sha": "e2b3ccc6474ebdd6aa1cbf72ee6197618eab5992",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/teach/course/lec4-chap6-p2/slides.pdf",
+      "url": "https://rlhfbook.com/teach/course/lec4-chap6-p2/slides.pdf",
+      "bytes": 1343569,
+      "sha256": "6037969e2ffd832ebd9380530e7cc31255b5772567de8616fcf6235054e743ea",
+      "kind": "website-pdf-snapshot"
+    },
+    {
+      "path": "source/teach/course/lec5-chap7.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/teach/course/lec5-chap7.md",
+      "bytes": 23048,
+      "sha256": "55249991877cbd24fa50e3a14bcf500ff4adf0424404bd514d95603c87bbb0ab",
+      "git_blob_sha": "da3550a2d2385f7b5cfd093e7998f937c1989d7e",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/teach/course/lec5-chap7/slides.pdf",
+      "url": "https://rlhfbook.com/teach/course/lec5-chap7/slides.pdf",
+      "bytes": 6207805,
+      "sha256": "388fd677c4bec34b25b6b623b4b95b0aa6755ecabc7fcbdca8151d091b5afe87",
+      "kind": "website-pdf-snapshot"
+    },
+    {
+      "path": "source/teach/course/lec6-chap8-dpo.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/teach/course/lec6-chap8-dpo.md",
+      "bytes": 34216,
+      "sha256": "9fe66717d13edad3ec3da8cb6f1a1ab9b4c7cba02d10a482c29d5ea40d9e50f7",
+      "git_blob_sha": "00fee3ea758788f3f747e8c5e2fda1ff0be05cb2",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/teach/course/lec6-chap8-dpo/slides.pdf",
+      "url": "https://rlhfbook.com/teach/course/lec6-chap8-dpo/slides.pdf",
+      "bytes": 720007,
+      "sha256": "1612ca732e77080e219e505c9bf4a1537cff054512ab77d511e597c825c17956",
+      "kind": "website-pdf-snapshot"
+    },
+    {
+      "path": "source/teach/course/lec7-chap12-synthetic-data.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/teach/course/lec7-chap12-synthetic-data.md",
+      "bytes": 34972,
+      "sha256": "b55f1ee40c3b50b950b393670fb3dfddd2017a9a030f516d25da787afac21ee3",
+      "git_blob_sha": "9c72110b0a4fb0e50001a13b6f829ce4d6de1506",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/teach/course/lec7-chap12-synthetic-data/slides.pdf",
+      "url": "https://rlhfbook.com/teach/course/lec7-chap12-synthetic-data/slides.pdf",
+      "bytes": 2009604,
+      "sha256": "0126da23d168f872a56be076d25fe677c87ee60c119dd1934c93a4756667dc4c",
+      "kind": "website-pdf-snapshot"
+    },
+    {
+      "path": "source/teach/course/lec8-chap10-11-preferences.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/teach/course/lec8-chap10-11-preferences.md",
+      "bytes": 25055,
+      "sha256": "11b78d39773d94216c7571e74db37c46fb106a1aaba43bb39de1a6b0c4e5aaef",
+      "git_blob_sha": "ebb526d4c3e27c557ef088cc8953b2c7c8171a45",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/teach/course/lec8-chap10-11-preferences/slides.pdf",
+      "url": "https://rlhfbook.com/teach/course/lec8-chap10-11-preferences/slides.pdf",
+      "bytes": 6663119,
+      "sha256": "f95866964d03486087817c9213f3e93657960f30a64783231c7c5919c6a00da9",
+      "kind": "website-pdf-snapshot"
+    },
+    {
+      "path": "source/teach/course/lec9-chap14-appb-overoptimization.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/teach/course/lec9-chap14-appb-overoptimization.md",
+      "bytes": 16786,
+      "sha256": "9383f8f90d5057c2f59d524c90633d533be876b6d469b5db69e2a7803d19e941",
+      "git_blob_sha": "0273e10da1263f5cb53709acdc2ef89558209e87",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/teach/course/lec9-chap14-appb-overoptimization/slides.pdf",
+      "url": "https://rlhfbook.com/teach/course/lec9-chap14-appb-overoptimization/slides.pdf",
+      "bytes": 1249253,
+      "sha256": "24377dc7d46398b1a9c80d5bd25d5f0c54b75109675ed35f3ce0f5452af8828c",
+      "kind": "website-pdf-snapshot"
+    },
+    {
+      "path": "source/teach/course/qa-01.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/teach/course/qa-01.md",
+      "bytes": 11851,
+      "sha256": "0001237aebb9ca801da25c0b1d4739acc58c8ead2ce2b0bb7e2e514d645af304",
+      "git_blob_sha": "e3ab9bb3f4beb83673de3599ff2813fdc8469e00",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/teach/course/qa-01/slides.pdf",
+      "url": "https://rlhfbook.com/teach/course/qa-01/slides.pdf",
+      "bytes": 334555,
+      "sha256": "3364d42c4b2e2088c5a6fdb3164a7af42447e02a4999e4ff8076c0fdbb7b3253",
+      "kind": "website-pdf-snapshot"
+    },
+    {
+      "path": "source/teach/course/qa-02.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/teach/course/qa-02.md",
+      "bytes": 15655,
+      "sha256": "1b70e0966045ec6cf4fbdf76d8b7d8a32bfb39173eb9c90fc8eb4f6a77a5658b",
+      "git_blob_sha": "ab072d0678602fc2fabe87bc8ae7d2950a56ae0b",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/teach/course/qa-02/slides.pdf",
+      "url": "https://rlhfbook.com/teach/course/qa-02/slides.pdf",
+      "bytes": 796326,
+      "sha256": "c366b4dc62705c0e0b4890e2d0ff2ddcfb2233516de445564eadce78595cce73",
+      "kind": "website-pdf-snapshot"
+    },
+    {
+      "path": "source/teach/course/qa-03.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/teach/course/qa-03.md",
+      "bytes": 9685,
+      "sha256": "b437c3389555e6338dcc7ee7dc2e383f23fa74251414a703174eac5f6115c149",
+      "git_blob_sha": "b20cdec7e0776e5f2474fa9a5c0f31b9e4bc1d96",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/teach/course/qa-03/slides.pdf",
+      "url": "https://rlhfbook.com/teach/course/qa-03/slides.pdf",
+      "bytes": 530486,
+      "sha256": "3891534e2b7e026f3ca4de5c639d5680d3a73328674eb06949dd8d555b0271e5",
+      "kind": "website-pdf-snapshot"
+    },
+    {
+      "path": "source/teach/course/refs.bib",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/teach/course/refs.bib",
+      "bytes": 109384,
+      "sha256": "84e195171e53cc682575774041f08788809c037ef27829c25f3a1acb8e82979b",
+      "git_blob_sha": "d66fd8361d46fcee4b13713e6cbabbbed61e2ed8",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/teach/extras/01-shoggoths.md",
+      "url": "https://raw.githubusercontent.com/natolambert/rlhf-book/0be34d8ed8a66cd0b41d4f98123987e2526d05cd/teach/extras/01-shoggoths.md",
+      "bytes": 8606,
+      "sha256": "f5fd8f3a3cacb81b6ed27b8a84a6e7c0840589fa4c4c3fcc73bd03e3a731a725",
+      "git_blob_sha": "ce4047b2a21951d796dcc66c30cf91c924fb60e5",
+      "kind": "pinned-upstream-file",
+      "git_mode": "100644"
+    },
+    {
+      "path": "source/teach/extras/01-shoggoths/slides.pdf",
+      "url": "https://rlhfbook.com/teach/extras/01-shoggoths/slides.pdf",
+      "bytes": 2133035,
+      "sha256": "a2c47a4eb591ae80a85b2c53c792fbb172d867b158ec7e89f850a6a7ce2d692b",
+      "kind": "website-pdf-snapshot"
+    }
+  ]
+}

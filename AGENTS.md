@@ -23,7 +23,7 @@ The supplied starting references are:
 
 Use the following layout; introduce additional directories only as needed:
 
-- `Sources/`: downloaded paper sources, version metadata, and per-paper summaries; preserve originals under each paper's `source/` directory.
+- `Sources/`: paper and course materials, version metadata, and summaries; preserve upstream files and licenses under each resource's `source/` directory.
 - `paper/`: paper source.
 - `presentation/`: slides and speaker notes.
 - `literature/`: additional reading notes and the seminar bibliography.
