@@ -21,11 +21,12 @@ The supplied starting references are:
 
 ## Project Structure & Organization
 
-Only this guide exists initially. Introduce the following directories as needed:
+Use the following layout; introduce additional directories only as needed:
 
+- `Sources/`: downloaded paper sources, version metadata, and per-paper summaries; preserve originals under each paper's `source/` directory.
 - `paper/`: paper source.
 - `presentation/`: slides and speaker notes.
-- `literature/`: reading notes, bibliography, and source metadata.
+- `literature/`: additional reading notes and the seminar bibliography.
 - `assets/`: attributed figures and diagrams.
 - `src/`, `notebooks/`, `tests/`: optional experiments and tests.
 
